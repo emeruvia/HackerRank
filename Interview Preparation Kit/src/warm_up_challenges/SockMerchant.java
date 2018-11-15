@@ -30,7 +30,7 @@ public class SockMerchant {
 	 * @return
 	 */
 	private static int sockMerchant(int n, int ar[]) {
-		Set<Integer> socks = new HashSet();
+		Set<Integer> socks = new HashSet<Integer>();
 		int pairs = 0;
 		for (int i : ar) {
 			if (socks.contains(i)) {
